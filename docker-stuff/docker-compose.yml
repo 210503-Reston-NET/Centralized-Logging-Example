@@ -29,8 +29,9 @@ services:
     environment:
       # CHANGE ME (must be at least 16 characters)!
       - GRAYLOG_PASSWORD_SECRET=kwikkodersupersecret
-      # Password: admin
+      # Password:
       - GRAYLOG_ROOT_PASSWORD_SHA2=1322039da8c705096597b8cd65305342ef200e4b473bab11dfbd1cfad8688c42
+
       - GRAYLOG_HTTP_EXTERNAL_URI=http://45.79.192.95:9000/
     entrypoint: /usr/bin/tini -- wait-for-it elasticsearch:9200 --  /docker-entrypoint.sh
     networks:

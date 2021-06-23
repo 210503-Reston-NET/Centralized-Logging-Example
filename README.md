@@ -1,7 +1,7 @@
 # Demo for setting up centralized logging
 
 
-## Install (ELK stack)[https://www.elastic.co/guide/en/kibana/current/docker.html] with docker
+## Install [ELK stack](https://www.elastic.co/guide/en/kibana/current/docker.html) with docker
 install:
  - Elasisearch
  - Kibana
@@ -18,5 +18,5 @@ dotnet add package serilog.sinks.elasticsearch
 ```
 
 
-Read (this)[https://www.humankode.com/asp-net-core/logging-with-elasticsearch-kibana-asp-net-core-and-docker]
+Read [this](https://www.humankode.com/asp-net-core/logging-with-elasticsearch-kibana-asp-net-core-and-docker)
 for configuration instructions.
